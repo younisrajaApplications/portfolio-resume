@@ -3,12 +3,14 @@ import React from 'react';
 function Education() {
   return (
     <section>
-      <h1 className="section-title">Education</h1>
+      <div className='about-hero'>
+        <h1 className="section-title">Education</h1>
 
-      <h2 className="section-subtitle">Academic Summary</h2>
-      <p>
-        I hold a BSc (Hons) in Computer Science from King's College London, where I developed a solid foundation in software engineering, machine learning, and artificial intelligence. My academic journey has equipped me with a deep understanding of both theoretical and practical aspects of computer science, including full-stack development, robotics, and database systems. I have also excelled in Mathematics and Computer Science during my A Levels and GCSEs, achieving top marks in both subjects.
-      </p>
+        <h2 className="section-subtitle">Academic Summary</h2>
+        <p>
+          I hold a BSc (Hons) in Computer Science from King's College London, where I developed a solid foundation in software engineering, machine learning, and artificial intelligence. My academic journey has equipped me with a deep understanding of both theoretical and practical aspects of computer science, including full-stack development, robotics, and database systems. I have also excelled in Mathematics and Computer Science during my A Levels and GCSEs, achieving top marks in both subjects.
+        </p>
+      </div>
 
       <ul>
         <li>
@@ -45,11 +47,12 @@ function Education() {
             10 GCSEs including:
             <ul>
               <li>8 GCSEs Graded 8(A*) - 7(A) including grade 8(A*) in Mathematics and Computer Science</li>
-              <li></li>
+              <li>10 GCSEs Graded 8(A*) - 5(C)</li>
             </ul>
           </p>
         </li>
       </ul>
+      <div className='empty-space'/>
     </section>
   );
 }

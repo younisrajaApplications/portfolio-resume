@@ -48,6 +48,7 @@ function Projects() {
           </p>
         </li>
       </ul>
+      <div className='empty-space'/>
     </section>
   );
 }

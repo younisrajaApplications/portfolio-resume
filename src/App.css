@@ -104,6 +104,8 @@ nav a.active {
 
 /* Section Styling */
 section {
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 40px;
 }
 
@@ -126,13 +128,15 @@ p, li {
   font-size: 16px;
   line-height: 1.6;
   color: #7F8C8D;
-  text-align: center;
+  text-align: left;
 }
 
-/* List Styling */
+/* Centered List Styling */
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0 auto; /* Center the ul element */
+  max-width: 600px; /* Limit the width of the ul */
 }
 
 ul li {
@@ -142,6 +146,7 @@ ul li {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  text-align: left; /* Ensure text is left-aligned */
 }
 
 ul li:hover {
@@ -295,4 +300,16 @@ footer p {
   footer {
     font-size: 14px;
   }
+}
+
+.empty-space {
+  padding-bottom: 20px;
+}
+
+.profile-section {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
 }

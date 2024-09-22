@@ -11,6 +11,7 @@ function Skills() {
         <li><strong>Testing:</strong> Test-driven Development, Unit Testing</li>
         <li><strong>Soft Skills:</strong> Teamwork, Leadership, Problem Solving, Attention to Detail</li>
       </ul>
+      <div className='empty-space'/>
     </section>
   );
 }
