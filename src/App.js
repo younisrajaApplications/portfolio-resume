@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Experience from './components/Experience';
@@ -33,23 +33,23 @@ function App() {
 
         {/* Navigation Menu */}
         <nav className={menuOpen ? 'nav open' : 'nav'}>
-          <NavLink to="/portfolio-resume/" end className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Home</NavLink>
-          <NavLink to="/portfolio-resume/about" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>About</NavLink>
-          <NavLink to="/portfolio-resume/experience" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Experience</NavLink>
-          <NavLink to="/portfolio-resume/education" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Education</NavLink>
-          <NavLink to="/portfolio-resume/skills" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Skills</NavLink>
-          <NavLink to="/portfolio-resume/projects" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Projects</NavLink>
+          <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Home</NavLink>
+          <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>About</NavLink>
+          <NavLink to="/experience" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Experience</NavLink>
+          <NavLink to="/education" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Education</NavLink>
+          <NavLink to="/skills" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Skills</NavLink>
+          <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Projects</NavLink>
         </nav>
       </header>
 
       <main>
         <Routes>
-          <Route path="/portfolio-resume" element={<Home />} />
-          <Route path="/portfolio-resume/about" element={<About />} />
-          <Route path="/portfolio-resume/experience" element={<Experience />} />
-          <Route path="/portfolio-resume/education" element={<Education />} />
-          <Route path="/portfolio-resume/skills" element={<Skills />} />
-          <Route path="/portfolio-resume/projects" element={<Projects />} />
+          <Route path="" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </main>
 

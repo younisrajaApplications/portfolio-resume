@@ -12,6 +12,7 @@ function Skills() {
         <li><strong>Soft Skills:</strong> Teamwork, Leadership, Problem Solving, Attention to Detail</li>
       </ul>
       <div className='empty-space'/>
+      <div className='empty-space'/>
     </section>
   );
 }

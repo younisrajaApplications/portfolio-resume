@@ -31,7 +31,7 @@ function About() {
             <li>Python</li>
             <li>C++</li>
             <li>Java</li>
-            <li><NavLink to="/portfolio-resume/skills"><strong>View My Skills</strong></NavLink></li>
+            <li><NavLink to="/skills"><strong>View My Skills</strong></NavLink></li>
           </ul>
           <div className='empty-space'/>
         </div>
