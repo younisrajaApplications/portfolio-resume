@@ -21,11 +21,12 @@ header .logo h2 {
 
 /* Header Styles */
 header {
-  background-color: #2ECC71;
+  background: #2ECC71;
   padding: 20px;
   color: white;
   text-align: center;
   position: relative;
+  border-bottom: solid 2px white;
 }
 
 /* Navigation Styles */
@@ -93,7 +94,9 @@ nav a.active {
   /* Show the navigation menu when menu is toggled open */
   .nav.open {
     display: flex;
-    background-color: #4CAF50;
+    background-color: #2ECC71;
+    border: solid 2px white;
+    border-top: none;
   }
 
   nav a {
