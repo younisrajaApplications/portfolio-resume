@@ -18,44 +18,46 @@ function App() {
 
   return (
     <Router>
-      <header>
-        <div className="logo">
-          <h1>Younis Mubashar Raja</h1>
-          <h2>Software Developer</h2>
-        </div>
+      <div className='screen' onClick={toggleMenu}>
+        <header>
+          <div className="logo">
+            <h1>Younis Mubashar Raja</h1>
+            <h2>Software Developer</h2>
+          </div>
 
-        {/* Hamburger menu button for small screens */}
-        <div className="hamburger" onClick={toggleMenu}>
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-        </div>
+          {/* Hamburger menu button for small screens */}
+          <div className="hamburger" onClick={toggleMenu}>
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </div>
 
-        {/* Navigation Menu */}
-        <nav className={menuOpen ? 'nav open' : 'nav'}>
-          <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Home</NavLink>
-          <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>About</NavLink>
-          <NavLink to="/experience" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Experience</NavLink>
-          <NavLink to="/education" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Education</NavLink>
-          <NavLink to="/skills" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Skills</NavLink>
-          <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Projects</NavLink>
-        </nav>
-      </header>
+          {/* Navigation Menu */}
+          <nav className={menuOpen ? 'nav open' : 'nav'}>
+            <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Home</NavLink>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>About</NavLink>
+            <NavLink to="/experience" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Experience</NavLink>
+            <NavLink to="/education" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Education</NavLink>
+            <NavLink to="/skills" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Skills</NavLink>
+            <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')} onClick={toggleMenu}>Projects</NavLink>
+          </nav>
+        </header>
 
-      <main>
-        <Routes>
-          <Route path="" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-      </main>
+        <main>
+          <Routes>
+            <Route path="" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </main>
 
-      <footer>
-        <p>&copy; 2024 Younis Mubashar Raja</p>
-      </footer>
+        <footer>
+          <p>&copy; 2024 Younis Mubashar Raja</p>
+        </footer>
+      </div>
     </Router>
   );
 }
