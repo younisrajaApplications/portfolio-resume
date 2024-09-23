@@ -12,8 +12,8 @@ function Home() {
           web technologies like React, NodeJS, and C#. Explore my professional journey and skills below!
         </p>
         <div className="cta-buttons">
-          <NavLink to="/projects" className="cta-btn">View My Projects</NavLink>
-          <NavLink to="/skills" className="cta-btn secondary">Check My Skills</NavLink>
+          <NavLink to="/portfolio-resume/projects" className="cta-btn">View My Projects</NavLink>
+          <NavLink to="/portfolio-resume/skills" className="cta-btn secondary">Check My Skills</NavLink>
         </div>
       </div>
     </section>
