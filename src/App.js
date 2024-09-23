@@ -44,6 +44,7 @@ function App() {
 
       <main>
         <Routes>
+        <Route path="/portfolio-resume" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />

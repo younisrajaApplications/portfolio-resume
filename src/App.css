@@ -334,3 +334,11 @@ footer p {
 html {
   scrollbar-color: #4CAF50 #4bda50; /* First color is thumb, second is track */
 }
+
+/*Background*/
+
+body {
+  background: linear-gradient(135deg, #2ECC71 0%, #3498DB 100%);
+  min-height: 100vh; /* Ensures the background covers the full viewport height */
+  background-attachment: fixed; /* Optional: keeps the gradient fixed while scrolling */
+}
