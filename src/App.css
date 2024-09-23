@@ -190,6 +190,7 @@ footer {
 
 footer p {
   margin: 0;
+  text-align: center;
 }
 
 /* Home Page */
@@ -312,4 +313,24 @@ footer p {
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 30px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f4f4f4; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3498db; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 3px solid #f4f4f4; /* Optional: add some padding around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2980b9; /* Darker color on hover */
+}
+
+/* Scrollbar styling for Firefox */
+html {
+  scrollbar-color: #4CAF50 #4bda50; /* First color is thumb, second is track */
 }
