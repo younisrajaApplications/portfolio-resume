@@ -5,7 +5,7 @@ function Home() {
   return (
     <section className="home">
       <div className="hero">
-        <h1>Younis Mubashar Rja</h1>
+        <h1>Younis Mubashar Raja</h1>
         <h2>Software Developer</h2>
         <p className='summary'>
           I am an accomplished Software Developer skilled in game development, full-stack engineering, and 
