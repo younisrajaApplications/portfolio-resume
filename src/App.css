@@ -3,7 +3,9 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
+  background: linear-gradient(135deg, #2ECC71 0%, #3498DB 100%);
+  min-height: 100vh; /* Ensures the background covers the full viewport height */
+  background-attachment: fixed; /* Optional: keeps the gradient fixed while scrolling */
   color: #333;
 }
 
@@ -298,6 +300,10 @@ footer p {
     padding: 10px 20px;
     font-size: 14px;
   }
+
+  .empty-space {
+    padding-bottom: 30px;
+  }
 }
 
 /* Mobile adjustments for footer */
@@ -336,15 +342,7 @@ footer p {
 
 /* Scrollbar styling for Firefox */
 html {
-  scrollbar-color: #4CAF50 #4bda50; /* First color is thumb, second is track */
-}
-
-/*Background*/
-
-body {
-  background: linear-gradient(135deg, #2ECC71 0%, #3498DB 100%);
-  min-height: 100vh; /* Ensures the background covers the full viewport height */
-  background-attachment: fixed; /* Optional: keeps the gradient fixed while scrolling */
+  scrollbar-color: #2ECC71 #16462a; /* First color is thumb, second is track */
 }
 
 .summary {
