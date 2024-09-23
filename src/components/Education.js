@@ -7,7 +7,7 @@ function Education() {
         <h1 className="section-title">Education</h1>
 
         <h2 className="section-subtitle">Academic Summary</h2>
-        <p>
+        <p className='summary'>
           I hold a BSc (Hons) in Computer Science from King's College London, where I developed a solid foundation in software engineering, machine learning, and artificial intelligence. My academic journey has equipped me with a deep understanding of both theoretical and practical aspects of computer science, including full-stack development, robotics, and database systems. I have also excelled in Mathematics and Computer Science during my A Levels and GCSEs, achieving top marks in both subjects.
         </p>
       </div>

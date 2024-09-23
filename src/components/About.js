@@ -6,7 +6,7 @@ function About() {
   return (
     <section>
       <h1 className='section-title'>About Me</h1>
-      <p>
+      <p className='summary'>
         I'm Younis Mubashar Raja, a Software Developer passionate about creating innovative solutions 
         through coding and technology. My expertise ranges from game development to full-stack web development. 
         I'm always eager to learn new skills and contribute to impactful projects.

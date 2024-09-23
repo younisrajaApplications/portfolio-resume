@@ -7,7 +7,7 @@ function Home() {
       <div className="hero">
         <h1>Younis Mubashar Raja</h1>
         <h2>Software Developer</h2>
-        <p>
+        <p className='summary'>
           I am an accomplished Software Developer skilled in game development, full-stack engineering, and 
           web technologies like React, NodeJS, and C#. Explore my professional journey and skills below!
         </p>

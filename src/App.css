@@ -233,6 +233,7 @@ footer p {
   font-size: 18px;
   margin-bottom: 30px;
   line-height: 1.6;
+  color: white;
 }
 
 .cta-buttons {
@@ -341,4 +342,8 @@ body {
   background: linear-gradient(135deg, #2ECC71 0%, #3498DB 100%);
   min-height: 100vh; /* Ensures the background covers the full viewport height */
   background-attachment: fixed; /* Optional: keeps the gradient fixed while scrolling */
+}
+
+.summary {
+  color: white;
 }
