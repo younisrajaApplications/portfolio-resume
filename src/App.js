@@ -16,9 +16,15 @@ function App() {
     setMenuOpen(!menuOpen); // Toggle the menu on/off
   };
 
+  const clickAway = () => {
+    if (menuOpen) {
+      setMenuOpen(!menuOpen);
+    }
+  };
+
   return (
     <Router>
-      <div className='screen' onClick={toggleMenu}>
+      <div className='screen' onClick={clickAway}>
         <header>
           <div className="logo">
             <h1>Younis Mubashar Raja</h1>
