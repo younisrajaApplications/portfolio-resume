@@ -8,8 +8,9 @@ function Home() {
         <h1>Younis Mubashar Raja</h1>
         <h2>Software Developer</h2>
         <p className='summary'>
-          I am an accomplished Software Developer skilled in game development, full-stack engineering, and 
-          web technologies like React, NodeJS, and C#. Explore my professional journey and skills below!
+          I am an accomplished Software Developer skilled in full-stack engineering, 
+          web technologies like React and NodeJS, and Object-Oriented Programming like Java, 
+          Python and C#. Explore my professional journey and skills below!
         </p>
         <div className="cta-buttons">
           <NavLink to="/projects" className="cta-btn">View My Projects</NavLink>
